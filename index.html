@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="login" id="login">
+          <p
+            style="
+              color: #508aa8;
+              font-size: 2rem;
+              font-weight: bolder;
+              margin-bottom: 2rem;
+            "
+          >
+            Sign In
+          </p>
+          <textarea
+            name=""
+            id=""
+            class="text"
+            placeholder="Email Address"
+            style="margin-bottom: 1rem"
+          ></textarea>
+          <input
+            name=""
+            id=""
+            class="text"
+                        type="password"
+
+            placeholder="Password"
+          ></textarea>
+          <p
+            style="
+              text-align: left;
+              margin-top: 1.2rem;
+              margin-right: 3.5rem;
+              color: #3c687e;
+            "
+          >
+            Forgot password?
+            <a href="" style="text-decoration: none">Reset here.</a>
+          </p>
+          <div class="button" style="margin: 2rem">NEXT</div>
+          <p style="margin-bottom: 1rem; color: #031927">Continue with:</p>
+          <div class="links">
+            <a href="#"><img src="images/Google.svg" alt="" class="icon" /></a>
+            <a href="#"><img src="images/github.svg" alt="" class="icon" /></a>
+            <a href="#"
+              ><img src="images/Microsoft.svg" alt="" class="icon"
+            /></a>
+          </div>
+          <p
+            style="margin-top: 1rem; color: #031927"
+            class="newAcc"
+            onclick="revealSignUp()"
+          >
+            Create new account
+          </p>
+        </div>
+        <div class="signUp" id="signUp">
+          <p
+            style="
+              color: #508aa8;
+              font-size: 2rem;
+              font-weight: bolder;
+              margin-bottom: 2rem;
+            "
+          >
+            Sign Up
+          </p>
+          <textarea
+            name=""
+            id=""
+            class="text"
+            placeholder="Full Name"
+            style="margin-bottom: 1rem"
+          ></textarea>
+          <textarea
+            name=""
+            id=""
+            class="text"
+            placeholder="Email Address"
+            style="margin-bottom: 1rem"
+          ></textarea>
+          <input
+            name=""
+            id=""
+            class="text"
+                        type="password"
+            placeholder="Create New Password"
+            style="margin-bottom: 1rem"
+          ></input>
+          <input
+            name=""
+            id=""
+            class="text"
+            type="password"
+            placeholder="Confirm New Password"
+          ></input>
+          <div class="button" style="margin: 2rem">NEXT</div>
+          <p style="margin-bottom: 1rem; color: #031927">Continue with:</p>
+          <div class="links">
+            <a href="#"><img src="images/Google.svg" alt="" class="icon" /></a>
+            <a href="#"><img src="images/github.svg" alt="" class="icon" /></a>
+            <a href="#"
+              ><img src="images/Microsoft.svg" alt="" class="icon"
+            /></a>
+          </div>
+          <p
+            style="margin-top: 1rem; color: #031927"
+            class="newAcc"
+            onclick="revealSignIn()"
+          >
+            Login to existing account
+          </p>
+        </div>
+      </div>
+      <div class="info">
+        <img
+          src="images/LandingWhiteLogo.svg"
+          alt=""
+          style="height: 5rem; color: #3c687e"
+        />
+        <p
+          style="
+            font-size: 5rem;
+            font-weight: 1000;
+            text-align: right;
+            max-width: 40rem;
+            margin-top: 3rem;
+            color: #031927e1;
+          "
+        >
+          Welcome to American Water
+        </p>
+        <p
+          style="
+            color: white;
+            font-size: 2rem;
+            font-style: italic;
+            font-family: cursive;
+            margin-top: 3rem;
+            font-weight: 800;
+            text-shadow: black 4px 4px 5px;
+          "
+        >
+          We keep life flowing...
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

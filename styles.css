@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(images/blue-white-painting-wave_662214-430209.jpg);
+  background-size: cover;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.signUp {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.icon {
+  height: 2rem;
+}
+a {
+  height: 100%;
+}
+.text {
+  width: 17rem;
+  height: 2rem;
+  border-radius: 15px;
+  resize: none;
+  padding: 0.51rem;
+  border: none;
+  transition: all 0.1s;
+  color: rgb(68, 67, 67);
+  box-shadow: none;
+}
+.text:focus {
+  border: none;
+  outline: none;
+  box-shadow: 0.4px 0.4px 20px 3px #9dd1f1;
+}
+.card {
+  border-radius: 36px;
+  background: #c8e0f4;
+  padding: 2rem;
+  margin: 4rem;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: start;
+  height: 100vh;
+  padding: 4rem;
+}
+.button {
+  background-color: #508aa8;
+  padding: 0.5rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  color: ivory;
+  border-radius: 15px;
+  box-shadow: 0.4px 3px 20px 3px #4e87a3cc;
+  transition: all 0.1s;
+  user-select: none;
+}
+.button:active {
+  transform: scale(0.98);
+  box-shadow: none;
+}
+.newAcc {
+  border-radius: 15px;
+  box-shadow: 0.4px 3px 20px 3px #4e87a3cc;
+  padding: 0.5rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  background-color: #c8e0f4;
+  user-select: none;
+}
+.newAcc:active {
+  transform: scale(0.98);
+  box-shadow: none;
+}
